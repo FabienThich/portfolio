@@ -15,7 +15,7 @@ function Main() {
         expand="lg"
         collapseOnSelect
       >
-        <Navbar.Brand>Logo Here</Navbar.Brand>
+        <Navbar.Brand className="col-3 text-center logo">Fabien. T Portfolio</Navbar.Brand>
 
         <Navbar.Toggle />
         <Navbar.Collapse>

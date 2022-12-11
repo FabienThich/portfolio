@@ -1,7 +1,19 @@
+import "./About.css";
+
 function About() {
-    return (
-        <div style={{height: '100vh'}}>hello from 1</div>
-    )
+  return (
+    <div className="container">
+      <h1 className="text-left">About Me</h1>
+      <div className="row">
+        <div className="col-6">
+          <div>Text here</div>
+        </div>
+        <div className="col-md-6 col-sm-12">
+          <div style={{ height: "90vh" }} className="rounded-5 bg-dark"></div>
+        </div>
+      </div>
+    </div>
+  );
 }
 
 export default About;

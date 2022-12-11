@@ -1,13 +1,10 @@
-.space {
-    padding-top: 100%;
-}
-
 .footer {
-    height: 10em;
-    background-color: #424952;
-    color: white;
+  background-color: #424952;
+  color: white;
+  padding-top: 4em;
+  padding-bottom: 4em;
 }
 
 .copy {
-    padding-top: 6em;
+  font-size: 1em;
 }

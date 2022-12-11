@@ -2,9 +2,9 @@ import "./Footer.css";
 
 function Footer() {
   return (
-    <div>
+    <div className="container-col-12 border">
       <div className="footer">
-        <div className="copy">
+        <div className="copy text-center">
           Copyright &copy; 2022 Fabien Thich. All Rights Reserved.
         </div>
       </div>
