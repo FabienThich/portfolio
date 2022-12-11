@@ -1,6 +1,6 @@
 function Resume() {
     return (
-        <div>hello from 2</div>
+        <div style={{paddingTop: "20cm"}}>hello from 2</div>
     )
 }
 

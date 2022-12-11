@@ -1,5 +1,9 @@
 import "./NavBar.css";
 import { Navbar, Nav } from "react-bootstrap";
+import { Link, Element } from "react-scroll";
+import Home from "../Home/Home";
+import About from "../About/About";
+import Resume from "../Resume/Resume";
 
 function NavBar() {
   return (
@@ -16,13 +20,54 @@ function NavBar() {
         <Navbar.Toggle />
         <Navbar.Collapse>
           <Nav>
-            <Nav.Link href="home">Home</Nav.Link>
-            <Nav.Link href="about">About</Nav.Link>
-            <Nav.Link href="resume">Resume</Nav.Link>
-            <Nav.Link href="contact">Contact Me</Nav.Link>
+            <li>
+              <Link
+                className="navLink"
+                to="home"
+                spy={true}
+                smooth={true}
+                offset={50}
+                duration={500}
+              >
+                Home
+              </Link>
+            </li>
+            <li>
+              <Link
+                className="navLink"
+                to="about"
+                spy={true}
+                smooth={true}
+                offset={50}
+                duration={500}
+              >
+                About
+              </Link>
+            </li>
+            <li>
+              <Link
+                className="navLink"
+                to="resume"
+                spy={true}
+                smooth={true}
+                offset={50}
+                duration={500}
+              >
+                Resume
+              </Link>
+            </li>
           </Nav>
         </Navbar.Collapse>
       </Navbar>
+      <Element name="home">
+        <Home />
+      </Element>
+      <Element name="about">
+        <About />
+      </Element>
+      <Element name="resume">
+        <Resume />
+      </Element>
     </div>
   );
 }
