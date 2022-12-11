@@ -22,7 +22,6 @@ function Main() {
           <Nav className="col-12 justify-content-end">
             <li className="navli">
               <Link
-                activeClass="active"
                 className="navLink"
                 to="home"
                 spy={true}
@@ -35,7 +34,6 @@ function Main() {
             </li>
             <li className="navli">
               <Link
-                activeClass="active"
                 className="navLink"
                 to="about"
                 spy={true}
@@ -48,7 +46,6 @@ function Main() {
             </li>
             <li className="navli">
               <Link
-                activeClass="active"
                 className="navLink"
                 to="resume"
                 spy={true}
