@@ -1,0 +1,36 @@
+/* Nav Item Setup */
+
+.navLink {
+  cursor: pointer;
+  text-decoration: none;
+  color: white;
+  position: relative;
+}
+
+.navli {
+  padding: 1.5em;
+  text-align: center;
+}
+
+/* Hover Animations */
+
+.navLink:hover {
+  color: white;
+}
+
+.navLink::after {
+  content: "";
+  position: absolute;
+  bottom: -5px;
+  height: 3px;
+  width: 100%;
+  left: 0;
+  background-color: white;
+  transition: 0.2s;
+  transition-timing-function: ease-in-out;
+  transform: scaleX(0);
+}
+
+.navLink:hover::after {
+  transform: scaleX(1);
+}

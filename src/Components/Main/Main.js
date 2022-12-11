@@ -1,11 +1,11 @@
-import "./NavBar.css";
+import "./Main.css";
 import { Navbar, Nav } from "react-bootstrap";
 import { Link, Element } from "react-scroll";
 import Home from "../Home/Home";
 import About from "../About/About";
 import Resume from "../Resume/Resume";
 
-function NavBar() {
+function Main() {
   return (
     <div>
       <Navbar
@@ -19,39 +19,42 @@ function NavBar() {
 
         <Navbar.Toggle />
         <Navbar.Collapse>
-          <Nav>
-            <li>
+          <Nav className="col-12 justify-content-end">
+            <li className="navli">
               <Link
+                activeClass="active"
                 className="navLink"
                 to="home"
                 spy={true}
                 smooth={true}
-                offset={50}
-                duration={500}
+                offset={-120}
+                duration={0}
               >
                 Home
               </Link>
             </li>
-            <li>
+            <li className="navli">
               <Link
+                activeClass="active"
                 className="navLink"
                 to="about"
                 spy={true}
                 smooth={true}
-                offset={50}
-                duration={500}
+                offset={-120}
+                duration={0}
               >
                 About
               </Link>
             </li>
-            <li>
+            <li className="navli">
               <Link
+                activeClass="active"
                 className="navLink"
                 to="resume"
                 spy={true}
                 smooth={true}
-                offset={50}
-                duration={500}
+                offset={-120}
+                duration={0}
               >
                 Resume
               </Link>
@@ -72,4 +75,4 @@ function NavBar() {
   );
 }
 
-export default NavBar;
+export default Main;

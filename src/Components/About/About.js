@@ -1,6 +1,6 @@
 function About() {
     return (
-        <div style={{paddingTop: "20cm"}}>hello from 1</div>
+        <div style={{height: '100vh'}}>hello from 1</div>
     )
 }
 

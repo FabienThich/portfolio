@@ -1,16 +1,13 @@
 import "./App.css";
 import 'bootstrap/dist/css/bootstrap.css';
-import NavBar from "./Components/NavBar/NavBar";
-import Home from "./Components/Home/Home";
-import About from "./Components/About/About";
+import Main from "./Components/Main/Main";
 import Footer from "./Components/Footer/Footer";
 
 function App() {
   return (
     <div className="App">
-      <NavBar />
-      {/* <Home /> */}
-      {/* <Footer /> */}
+      <Main />
+      <Footer />
     </div>
   );
 }
