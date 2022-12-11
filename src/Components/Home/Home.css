@@ -1,0 +1,45 @@
+/* Introduction */
+
+.homeStarter {
+  padding-top: 5em;
+  padding-bottom: 5em;
+}
+
+.myGreeting {
+  font-size: 2em;
+  margin: 2vw;
+}
+
+.myName {
+  font-size: 5em;
+  margin: 2vw;
+}
+
+.myStatus {
+  font-size: 1em;
+  margin: 2vw;
+}
+
+/* Download Button */
+
+.download {
+  margin-top: 6em;
+  margin-left: 2vw;
+  transition: transform 0.2s;
+}
+
+.download:hover {
+  transform: scale(1.1);
+}
+
+/* Social Icons */
+
+.socials {
+  margin-left: 2vw;
+  width: 4em;
+  transition: transform 0.3s;
+}
+
+.socials:hover {
+  transform: scale(1.2);
+}
