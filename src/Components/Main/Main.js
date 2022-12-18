@@ -4,6 +4,7 @@ import { Link, Element } from "react-scroll";
 import Home from "../Home/Home";
 import About from "../About/About";
 import Resume from "../Resume/Resume";
+import Experience from "../Experience/Experience";
 
 function Main() {
   return (
@@ -56,6 +57,18 @@ function Main() {
                 Resume
               </Link>
             </li>
+            <li className="navli">
+              <Link
+                className="navLink"
+                to="experience"
+                spy={true}
+                smooth={true}
+                offset={-120}
+                duration={0}
+              >
+                Experience
+              </Link>
+            </li>
           </Nav>
         </Navbar.Collapse>
       </Navbar>
@@ -67,6 +80,9 @@ function Main() {
       </Element>
       <Element name="resume">
         <Resume />
+      </Element>
+      <Element name="experience">
+        <Experience />
       </Element>
     </div>
   );

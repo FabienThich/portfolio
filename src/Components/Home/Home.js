@@ -7,7 +7,7 @@ function Home() {
         <div className="col-md-6 col-sm-12">
           <h4 className="myGreeting">Hello, This is Me...</h4>
           <h2 className="myName">Fabien Thich</h2>
-          <div className="myStatus">Software Engineer For North P&D, Inc.</div>
+          <div className="myStatus">Software Engineer Intern For North P&D, Inc.</div>
           <div>
             <a href="https://www.linkedin.com/in/fabienthich">
               <img

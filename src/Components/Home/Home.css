@@ -23,7 +23,7 @@
 /* Download Button */
 
 .download {
-  margin-top: 6em;
+  margin-top: 4em;
   margin-left: 2vw;
   transition: transform 0.2s;
 }
@@ -37,6 +37,7 @@
 .socials {
   margin-left: 2vw;
   width: 4em;
+  border-radius: 50%;
   transition: transform 0.3s;
 }
 
