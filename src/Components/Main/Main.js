@@ -5,6 +5,7 @@ import Home from "../Home/Home";
 import About from "../About/About";
 import Resume from "../Resume/Resume";
 import Experience from "../Experience/Experience";
+import Arrow from "./Arrow.svg";
 
 function Main() {
   return (
@@ -71,6 +72,19 @@ function Main() {
                 Experience
               </Link>
             </li>
+            <Link
+              className="navLink"
+              to="home"
+              spy={true}
+              smooth={true}
+              offset={-90}
+              duration={0}
+            >
+              <div className="backToTop">
+                {/* Source: https://icons.getbootstrap.com/icons/arrow-up/ */}
+                <img src={Arrow} />
+              </div>
+            </Link>
           </Nav>
         </Navbar.Collapse>
       </Navbar>

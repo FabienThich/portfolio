@@ -47,3 +47,15 @@
 .navLink.active:after {
   transform: scaleX(1);
 }
+
+/* Back to Top */
+
+.backToTop {
+  width: 3em;
+  height: 3em;
+  background-color: #292b2c;
+  border-radius: 100%;
+  position: fixed;
+  bottom: 2em;
+  right: 2em;
+}
