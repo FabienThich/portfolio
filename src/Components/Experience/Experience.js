@@ -1,3 +1,4 @@
+import "./Experience.css";
 import JPCountries from "../../assets/JPCountries.png";
 
 function Experience() {
@@ -5,7 +6,7 @@ function Experience() {
     <div className="container">
       <h1 className="text-left">Experience</h1>
       <div className="card" style={{ width: "18rem" }}>
-        <img src={JPCountries} className="card-img-top" alt="..." />
+        <img src={JPCountries} className="card-img-top" />
         <div className="card-body">
           <h5 className="card-title">SVG Lag</h5>
           <p className="card-text">
@@ -14,7 +15,7 @@ function Experience() {
           </p>
           <a
             href="https://www.jpabadir.com/countries"
-            className="btn btn-dark rounded-pill"
+            className="btn btn-dark rounded-pill seeMore"
           >
             See More
           </a>
