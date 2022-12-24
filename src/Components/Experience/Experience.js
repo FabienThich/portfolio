@@ -5,7 +5,7 @@ function Experience() {
   return (
     <div className="container">
       <h1 className="text-left">Experience</h1>
-      <div className="card col-3">
+      <div className="card col-lg-3 col-md-6 col-sm-12">
         <img src={JPCountries} className="card-img-top" />
         <div className="card-body">
           <h5 className="card-title">SVG Lag</h5>
