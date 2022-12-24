@@ -28,7 +28,7 @@ function Main() {
                 to="home"
                 spy={true}
                 smooth={true}
-                offset={-120}
+                offset={-90}
                 duration={0}
               >
                 Home
@@ -40,7 +40,7 @@ function Main() {
                 to="about"
                 spy={true}
                 smooth={true}
-                offset={-120}
+                offset={-90}
                 duration={0}
               >
                 About
@@ -52,7 +52,7 @@ function Main() {
                 to="resume"
                 spy={true}
                 smooth={true}
-                offset={-120}
+                offset={-90}
                 duration={0}
               >
                 Resume
@@ -64,7 +64,7 @@ function Main() {
                 to="experience"
                 spy={true}
                 smooth={true}
-                offset={-120}
+                offset={-90}
                 duration={0}
               >
                 Experience

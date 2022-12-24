@@ -2,7 +2,7 @@ import "./About.css";
 
 function About() {
   return (
-    <div className="container">
+    <div className="container Pad">
       <h1 className="text-left">About Me</h1>
       <div className="row">
         <div className="col-6">
