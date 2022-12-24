@@ -5,6 +5,7 @@ import Home from "../Home/Home";
 import About from "../About/About";
 import Resume from "../Resume/Resume";
 import Experience from "../Experience/Experience";
+// Create new component for nav
 
 function Main() {
   return (

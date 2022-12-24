@@ -1,0 +1,41 @@
+[
+  {
+    "title": "Personal Website",
+    "description": "Some quick example text to build on the card title and make up the bulk of the card's content.",
+    "image": "portfolio/assets/JPCountries.png",
+    "link": "https://fabienthich.github.io/"
+  },
+
+  {
+    "title": "Weather App",
+    "description": "Some quick example text to build on the card title and make up the bulk of the card's content.",
+    "image": "portfolio/assets/JPCountries.png",
+    "link": "https://www.jpabadir.com/countries"
+  },
+  {
+    "title": "Calculator",
+    "description": "Some quick example text to build on the card title and make up the bulk of the card's content.",
+    "image": "portfolio/assets/JPCountries.png",
+    "link": "https://fabienthich.github.io/calculator"
+  },
+
+  {
+    "title": "SVG Lag",
+    "description": "Some quick example text to build on the card title and make up the bulk of the card's content.",
+    "image": "portfolio/assets/JPCountries.png",
+    "link": "https://www.jpabadir.com/countries"
+  },
+  {
+    "title": "SVG Lag",
+    "description": "Some quick example text to build on the card title and make up the bulk of the card's content.",
+    "image": "portfolio/assets/JPCountries.png",
+    "link": "https://www.jpabadir.com/countries"
+  },
+
+  {
+    "title": "SVG Lag",
+    "description": "Some quick example text to build on the card title and make up the bulk of the card's content.",
+    "image": "portfolio/assets/JPCountries.png",
+    "link": "https://www.jpabadir.com/countries"
+  }
+]

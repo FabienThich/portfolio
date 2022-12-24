@@ -1,3 +1,10 @@
+.card {
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: 3em; 
+  margin-right: 3em;
+}
+
 .seeMore {
   transition: transform 0.3s;
 }

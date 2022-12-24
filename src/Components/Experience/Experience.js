@@ -1,25 +1,28 @@
 import "./Experience.css";
-import JPCountries from "../../assets/JPCountries.png";
+import Cards from "./Experience.json";
 
 function Experience() {
   return (
-    <div className="container">
+    <div className="container border">
       <h1 className="text-left">Experience</h1>
-      <div className="card col-lg-3 col-md-6 col-sm-12">
-        <img src={JPCountries} className="card-img-top" />
-        <div className="card-body">
-          <h5 className="card-title">SVG Lag</h5>
-          <p className="card-text">
-            Some quick example text to build on the card title and make up the
-            bulk of the card's content.
-          </p>
-          <a
-            href="https://www.jpabadir.com/countries"
-            className="btn btn-dark rounded-pill seeMore"
-          >
-            See More
-          </a>
-        </div>
+      <div className="row justify-content-center border">
+        {Cards.map((card) => {
+          return (
+            <div className="card col-lg-3 col-md-6 col-sm-12 border">
+              <img src={card.image} className="card-img-top" />
+              <div className="card-body">
+                <h5 className="card-title">{card.title}</h5>
+                <p className="card-text">{card.description}</p>
+                <a
+                  href={card.link}
+                  className="btn btn-dark rounded-pill seeMore"
+                >
+                  See More
+                </a>
+              </div>
+            </div>
+          );
+        })}
       </div>
     </div>
   );
