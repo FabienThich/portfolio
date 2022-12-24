@@ -5,7 +5,6 @@ import Home from "../Home/Home";
 import About from "../About/About";
 import Resume from "../Resume/Resume";
 import Experience from "../Experience/Experience";
-// Create new component for nav
 
 function Main() {
   return (
@@ -17,7 +16,9 @@ function Main() {
         expand="lg"
         collapseOnSelect
       >
-        <Navbar.Brand className="col-3 text-center logo">Fabien. T Portfolio</Navbar.Brand>
+        <Navbar.Brand className="col-3 text-center logo">
+          Fabien. T Portfolio
+        </Navbar.Brand>
 
         <Navbar.Toggle />
         <Navbar.Collapse>
