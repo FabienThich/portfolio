@@ -1,0 +1,21 @@
+.full {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../assets/DowntownToronto2.png");
+  background-size: cover;
+}
+
+.wholeForm {
+  background-color: white;
+}
+
+.inputBoxHead {
+  border-color: black;
+  padding: 0.5em;
+  height: 100%;
+  width: 60%;
+}
+
+.inputBoxBody {
+  border-color: black;
+  height: 8em;
+  width: 100%;
+}

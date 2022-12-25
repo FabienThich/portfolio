@@ -5,6 +5,7 @@ import Home from "../Home/Home";
 import About from "../About/About";
 import Resume from "../Resume/Resume";
 import Experience from "../Experience/Experience";
+import Contact from "../Contact/Contact";
 
 function Main() {
   return (
@@ -71,6 +72,18 @@ function Main() {
                 Experience
               </Link>
             </li>
+            <li className="navli">
+              <Link
+                className="navLink"
+                to="contact"
+                spy={true}
+                smooth={true}
+                offset={-90}
+                duration={0}
+              >
+                Contact
+              </Link>
+            </li>
           </Nav>
         </Navbar.Collapse>
       </Navbar>
@@ -85,6 +98,9 @@ function Main() {
       </Element>
       <Element name="experience">
         <Experience />
+      </Element>
+      <Element name="contact">
+        <Contact />
       </Element>
     </div>
   );
