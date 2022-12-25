@@ -1,6 +1,4 @@
 import "./Home.css";
-import GitHub from './GitHub.svg'
-import LinkedIn from './LinkedIn.svg'
 
 function Home() {
   return (
@@ -14,13 +12,13 @@ function Home() {
             <a href="https://www.linkedin.com/in/fabienthich">
               <img
                 className="socials"
-                src={LinkedIn}
+                src="portfolio/assets/LinkedIn.svg"
               />
             </a>
             <a href="https://github.com/FabienThich">
               <img
                 className="socials"
-                src={GitHub}
+                src="portfolio/assets/GitHub.svg"
               />
             </a>
           </div>
