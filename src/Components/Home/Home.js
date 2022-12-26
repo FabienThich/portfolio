@@ -1,4 +1,5 @@
 import "./Home.css";
+import { scroller } from "react-scroll";
 
 function Home() {
   return (
@@ -7,21 +8,31 @@ function Home() {
         <div className="col-md-6 col-sm-12">
           <h4 className="myGreeting">Hello, This is Me...</h4>
           <h2 className="myName">Fabien Thich</h2>
-          <div className="myStatus">Software Engineer Intern For North P&D, Inc.</div>
+          <div className="myStatus">
+            Software Engineer Intern For North P&D, Inc.
+          </div>
           <div>
             <a href="https://www.linkedin.com/in/fabienthich">
-              <img
-                className="socials"
-                src="portfolio/assets/LinkedIn.svg"
-              />
+              <img className="socials" src="portfolio/assets/LinkedIn.svg" />
             </a>
             <a href="https://github.com/FabienThich">
-              <img
-                className="socials"
-                src="portfolio/assets/GitHub.svg"
-              />
+              <img className="socials" src="portfolio/assets/GitHub.svg" />
             </a>
           </div>
+          <a
+            onClick={() => {
+              scroller.scrollTo("contact", {
+                duration: 0,
+                smooth: true,
+                spy: true,
+                offset: -85,
+              });
+            }}
+          >
+            <button className="border border-primary btn btn-transparent rounded-pill download">
+              Get In Touch👋
+            </button>
+          </a>
           <a /**download="Resume.pdf"**/>
             <button className="btn btn-primary rounded-pill download">
               Download Resume

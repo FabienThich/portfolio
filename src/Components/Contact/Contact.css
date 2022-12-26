@@ -5,17 +5,27 @@
 
 .wholeForm {
   background-color: white;
+  margin: 2em;
+  padding: 2em;
+  box-shadow: 5px 10px 18px #F2F3F5;
 }
 
 .inputBoxHead {
-  border-color: black;
-  padding: 0.5em;
-  height: 100%;
-  width: 60%;
+  width: 100%;
+  margin-bottom: 2em;
+  border: 5px solid #F2F3F5;
 }
 
 .inputBoxBody {
-  border-color: black;
-  height: 8em;
   width: 100%;
+  margin-bottom: 2em;
+  border: 5px solid #F2F3F5;
+}
+
+.submitForm {
+  transition: transform 0.3s;
+}
+
+.submitForm:hover {
+  transform: scale(1.1);
 }

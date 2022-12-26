@@ -4,10 +4,9 @@ function Contact() {
   return (
     <div className="full">
       <div className="container Pad">
-        <h1>Contact Me</h1>
-
-        <div className="row gy-5 justify-content-center">
-          <div className="col-lg-8 col-sm-12 rounded-5 wholeForm">
+        <h1 style={{color: "white"}}>Contact Me</h1>
+        <div className="row justify-content-center">
+          <div className="col-lg-6 col-md-8 col-sm-12 rounded-5 wholeForm border">
             <form
               action="https://formsubmit.co/ce2fd17a373249f623ee75903ce2d2f5"
               method="POST"
@@ -25,47 +24,46 @@ function Contact() {
                 value="https://fabienthich.github.io/portfolio/"
               />
 
-              <div className="row gy-5 justify-content-center text-center">
-                <div className="col-lg-5 col-sm-12">
-                  <input
-                    type="text"
-                    name="name"
-                    className="rounded-5 inputBoxHead"
-                    placeholder="Name"
-                    required
-                  />
-                </div>
-
-                <div className="col-lg-5 col-sm-12">
-                  <input
-                    type="email"
-                    name="email"
-                    className="rounded-5 inputBoxHead"
-                    placeholder="Email"
-                    required
-                  />
-                </div>
+              <div className="col">
+                <label for="name">Name</label>
+              </div>
+              <div className="col">
+                <input
+                  type="text"
+                  name="name"
+                  className="rounded-3 inputBoxHead"
+                  required
+                />
               </div>
 
-              <div className="row gy-5 justify-content-center">
-                <div className="col-8">
-                  <input
-                    type="text"
-                    name="message"
-                    placeholder="Message"
-                    required
-                    className="rounded-5 inputBoxBody"
-                  />
-                </div>
+              <div className="col">
+                <label for="email">Email</label>
+              </div>
+              <div className="col">
+                <input
+                  type="email"
+                  name="email"
+                  className="rounded-3 inputBoxHead"
+                  required
+                />
               </div>
 
-              <div className="row gy-5 justify-content-center">
-                <div className="col-8">
-                  <button type="submit" className="btn btn-dark rounded-pill">
-                    Send Form
-                  </button>
-                </div>
+              <div className="col">
+                <label for="message">Message</label>
               </div>
+              <div className="col">
+                <textarea
+                  type="text"
+                  name="message"
+                  className="rounded-3 inputBoxBody"
+                  rows="3"
+                  required
+                />
+              </div>
+
+              <button type="submit" className="btn btn-dark rounded-pill submitForm">
+                Send Form
+              </button>
             </form>
           </div>
         </div>
