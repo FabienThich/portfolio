@@ -3,6 +3,21 @@
   padding-bottom: 5.75em;
 }
 
+h1 {
+  text-align: center;
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  align-items: center;
+  column-gap: 1em;
+}
+
+h1::before, h1::after {
+  content: "";
+  height: 0.1em;
+  background-color: black;
+  display: block;
+}
+
 /* .App {
   text-align: center;
 }

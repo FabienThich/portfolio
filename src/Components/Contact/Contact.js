@@ -6,7 +6,7 @@ function Contact() {
       <div className="container Pad">
         <h1 style={{color: "white"}}>Contact Me</h1>
         <div className="row justify-content-center">
-          <div className="col-lg-6 col-md-8 col-sm-12 rounded-5 wholeForm border">
+          <div className="col-lg-6 col-md-8 col-sm-12 rounded-5 wholeForm">
             <form
               action="https://formsubmit.co/ce2fd17a373249f623ee75903ce2d2f5"
               method="POST"

@@ -11,7 +11,8 @@ function Home() {
           <div className="myStatus">
             Software Engineer Intern For North P&D, Inc.
           </div>
-          <div>
+
+          <div className="links">
             <a href="https://www.linkedin.com/in/fabienthich">
               <img className="socials" src="portfolio/assets/LinkedIn.svg" />
             </a>
@@ -19,25 +20,28 @@ function Home() {
               <img className="socials" src="portfolio/assets/GitHub.svg" />
             </a>
           </div>
-          <a
-            onClick={() => {
-              scroller.scrollTo("contact", {
-                duration: 0,
-                smooth: true,
-                spy: true,
-                offset: -85,
-              });
-            }}
-          >
-            <button className="border border-primary btn btn-transparent rounded-pill download">
-              Get In Touch👋
-            </button>
-          </a>
-          <a /**download="Resume.pdf"**/>
-            <button className="btn btn-primary rounded-pill download">
-              Download Resume
-            </button>
-          </a>
+          {/* rearrange classnames, i.e, download, socials, links css */}
+          <div className="links">
+            <a
+              onClick={() => {
+                scroller.scrollTo("contact", {
+                  duration: 0,
+                  smooth: true,
+                  spy: true,
+                  offset: -85,
+                });
+              }}
+            >
+              <button className="border border-primary btn btn-transparent rounded-pill download">
+                Get In Touch👋
+              </button>
+            </a>
+            <a /**download="Resume.pdf"**/>
+              <button className="btn btn-primary rounded-pill download">
+                Download Resume
+              </button>
+            </a>
+          </div>
         </div>
 
         <div className="col"></div>

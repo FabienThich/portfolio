@@ -24,7 +24,7 @@ function Main() {
         <Navbar.Toggle />
         <Navbar.Collapse>
           <Nav className="col-12 justify-content-end">
-            <li className="navli">
+            {/* <li className="navli">
               <Link
                 className="navLink"
                 to="home"
@@ -35,7 +35,7 @@ function Main() {
               >
                 Home
               </Link>
-            </li>
+            </li> */}
             <li className="navli">
               <Link
                 className="navLink"

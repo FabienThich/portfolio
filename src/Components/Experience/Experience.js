@@ -4,7 +4,7 @@ import Cards from "./Experience.json";
 function Experience() {
   return (
     <div className="container Pad">
-      <h1 className="text-left">Experience</h1>
+      <h1>Experience</h1>
       <div className="row">
         {Cards.map((card) => {
           return (
