@@ -1,42 +1,50 @@
 /* Introduction */
 
 .homeStarter {
-  padding-top: 5em;
+  padding-top: 4em;
   padding-bottom: 5em;
 }
 
 .myGreeting {
-  font-size: 2em;
-  margin: 2vw;
+  font-size: 32px;
+  margin: 2rem;
 }
 
 .myName {
-  font-size: 5em;
-  margin: 2vw;
+  font-size: 80px;
+  margin: 2rem;
 }
 
 .myStatus {
-  font-size: 1em;
-  margin: 2vw;
+  font-size: 16px;
+  margin: 2rem;
 }
 
 /* Download Button */
 
-.download {
-  margin-right: 2vw;
-  margin-top: 4em;
+.getInTouchSpace {
+  margin: 2rem;
+  padding-top: 2em; 
+  /* Remove padding-top if nessessary  */
+}
+
+.getInTouch {
   transition: transform 0.2s;
 }
 
-.download:hover {
+.getInTouch:hover {
   transform: scale(1.1);
 }
 
 /* Social Icons */
 
+.socialSpace {
+  margin: 2rem;
+}
+
 .socials {
-  margin-right: 2vw;
   width: 3em;
+  margin-right: 2rem;
   border-radius: 50%;
   transition: transform 0.3s;
 }
@@ -45,7 +53,8 @@
   transform: scale(1.2);
 }
 
-/* Links */
-.links {
-  margin-left: 2vw;
+@media only screen and (max-width: 768px) {
+  .homeStarter {
+    padding-top: 0;
+  }
 }

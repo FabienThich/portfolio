@@ -3,7 +3,7 @@ import { scroller } from "react-scroll";
 
 function Home() {
   return (
-    <div className="container" style={{ height: "90vh" }}>
+    <div className="container">
       <div className="row homeStarter">
         <div className="col-md-6 col-sm-12">
           <h4 className="myGreeting">Hello, This is Me...</h4>
@@ -12,7 +12,7 @@ function Home() {
             Software Engineer Intern For North P&D, Inc.
           </div>
 
-          <div className="links">
+          <div className="col socialSpace">
             <a href="https://www.linkedin.com/in/fabienthich">
               <img className="socials" src="portfolio/assets/LinkedIn.svg" />
             </a>
@@ -20,8 +20,10 @@ function Home() {
               <img className="socials" src="portfolio/assets/GitHub.svg" />
             </a>
           </div>
+
           {/* rearrange classnames, i.e, download, socials, links css */}
-          <div className="links">
+
+          <div className="col getInTouchSpace">
             <a
               onClick={() => {
                 scroller.scrollTo("contact", {
@@ -32,18 +34,17 @@ function Home() {
                 });
               }}
             >
-              <button className="border border-primary btn btn-transparent rounded-pill download">
-                Get In Touch👋
+              <button className="border border-primary btn btn-primary rounded-pill getInTouch">
+                Get In Touch 👋
               </button>
             </a>
-            <a /**download="Resume.pdf"**/>
+            {/* <a download="Resume.pdf">
               <button className="btn btn-primary rounded-pill download">
                 Download Resume
               </button>
-            </a>
+            </a> */}
           </div>
         </div>
-
         <div className="col"></div>
       </div>
     </div>
