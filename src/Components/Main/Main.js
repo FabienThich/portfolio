@@ -1,4 +1,5 @@
 import "./Main.css";
+import { useEffect } from "react";
 import { Navbar, Nav } from "react-bootstrap";
 import { Link, Element } from "react-scroll";
 import Home from "../Home/Home";
@@ -8,13 +9,15 @@ import Experience from "../Experience/Experience";
 import Contact from "../Contact/Contact";
 
 function Main() {
-  const backToTop = document.querySelector(".backToTop");
-  window.addEventListener("scroll", () => {
-    if (window.pageYOffset > 100) {
-      backToTop.classList.add("active");
-    } else {
-      backToTop.classList.remove("active");
-    }
+  useEffect(() => {
+    const backToTop = document.querySelector(".backToTop");
+    window.addEventListener("scroll", () => {
+      if (window.pageYOffset > 200) {
+        backToTop.classList.add("active");
+      } else {
+        backToTop.classList.remove("active");
+      }
+    });
   });
 
   return (
