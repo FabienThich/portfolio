@@ -4,20 +4,23 @@ function Contact() {
   return (
     <div className="full">
       <div className="container Pad">
-        <h1 style={{color: "white"}}>Contact Me</h1>
+        <h1 style={{ color: "white" }}>Contact Me</h1>
         <div className="row justify-content-center">
           <div className="col-lg-6 col-md-8 col-sm-12 rounded-5 wholeForm">
             <form
               action="https://formsubmit.co/ce2fd17a373249f623ee75903ce2d2f5"
               method="POST"
             >
+              <input type="text" name="_honey" style={{ display: "none" }} />
+              <input type="hidden" name="_captcha" value="false" />
+              <input type="hidden" name="_template" value="box" />
+              
               <input
                 type="hidden"
                 name="_subject"
                 value="A visitor left a message on your portfolio!"
               />
-              <input type="hidden" name="_template" value="box" />
-              <input type="hidden" name="_captcha" value="false" />
+              
               <input
                 type="hidden"
                 name="_next"
@@ -61,7 +64,10 @@ function Contact() {
                 />
               </div>
 
-              <button type="submit" className="btn btn-dark rounded-pill submitForm">
+              <button
+                type="submit"
+                className="btn btn-dark rounded-pill submitForm"
+              >
                 Send Form
               </button>
             </form>
