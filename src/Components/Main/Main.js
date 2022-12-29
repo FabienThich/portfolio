@@ -8,6 +8,15 @@ import Experience from "../Experience/Experience";
 import Contact from "../Contact/Contact";
 
 function Main() {
+  const backToTop = document.querySelector(".backToTop");
+  window.addEventListener("scroll", () => {
+    if (window.pageYOffset > 100) {
+      backToTop.classList.add("active");
+    } else {
+      backToTop.classList.remove("active");
+    }
+  });
+
   return (
     <div>
       <Navbar
@@ -82,6 +91,17 @@ function Main() {
                 duration={0}
               >
                 Contact
+              </Link>
+            </li>
+            <li>
+              <Link
+                to="home"
+                spy={true}
+                smooth={true}
+                offset={-90}
+                duration={0}
+              >
+                <div className="backToTop">^</div>
               </Link>
             </li>
           </Nav>

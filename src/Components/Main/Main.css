@@ -51,11 +51,26 @@
 /* Back to Top */
 
 .backToTop {
-  width: 3em;
-  height: 3em;
   background-color: #292b2c;
-  border-radius: 100%;
   position: fixed;
-  bottom: 2em;
-  right: 2em;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  bottom: 2rem;
+  right: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 1.5em;
+  text-decoration: none;
+  opacity: 0;
+  pointer-events: none;
+  transition: all 0.5s;
+}
+
+.backToTop.active {
+  pointer-events: auto;
+  cursor: pointer;
+  opacity: 1;
 }
