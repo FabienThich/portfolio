@@ -1,5 +1,7 @@
 import "./Home.css";
 import { scroller } from "react-scroll";
+import LinkedIn from '../../assets/LinkedIn.svg'
+import GitHub from '../../assets/GitHub.svg'
 
 function Home() {
   return (
@@ -14,10 +16,10 @@ function Home() {
 
           <div className="col socialSpace">
             <a href="https://www.linkedin.com/in/fabienthich">
-              <img className="socials" src="portfolio/assets/LinkedIn.svg" />
+              <img className="socials" src={LinkedIn} />
             </a>
             <a href="https://github.com/FabienThich">
-              <img className="socials" src="portfolio/assets/GitHub.svg" />
+              <img className="socials" src={GitHub} />
             </a>
           </div>
 
