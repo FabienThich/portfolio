@@ -1,18 +1,20 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.d6bad6e2.css",
-    "main.js": "/portfolio/static/js/main.56e4617a.js",
+    "main.js": "/portfolio/static/js/main.939e8917.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/DowntownToronto2.png": "/portfolio/static/media/DowntownToronto2.1d300515a59f47c7ea3e.png",
+    "static/media/JPCountries.png": "/portfolio/static/media/JPCountries.4a13474be0abe40b270c.png",
+    "static/media/Personal Website.png": "/portfolio/static/media/Personal Website.0389b8db94f0a5ddb191.png",
     "index.html": "/portfolio/index.html",
     "static/media/GitHub.svg": "/portfolio/static/media/GitHub.7feaa4a464a6c2ac4a2ab27bd03556fc.svg",
     "static/media/LinkedIn.svg": "/portfolio/static/media/LinkedIn.4d2f0399a4c7d8e2c29df5a072dc00b1.svg",
     "main.d6bad6e2.css.map": "/portfolio/static/css/main.d6bad6e2.css.map",
-    "main.56e4617a.js.map": "/portfolio/static/js/main.56e4617a.js.map",
+    "main.939e8917.js.map": "/portfolio/static/js/main.939e8917.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d6bad6e2.css",
-    "static/js/main.56e4617a.js"
+    "static/js/main.939e8917.js"
   ]
 }
