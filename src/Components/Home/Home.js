@@ -45,7 +45,7 @@ function Home() {
             </a> */}
           </div>
         </div>
-        <div className="col-md-6 col-sm-12 border"></div>
+        <div className="col-md-6 col-sm-12"></div>
       </div>
     </div>
   );
