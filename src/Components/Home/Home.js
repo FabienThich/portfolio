@@ -34,7 +34,7 @@ function Home() {
                 });
               }}
             >
-              <button className="border border-primary btn btn-primary rounded-pill getInTouch">
+              <button className="btn btn-primary rounded-pill getInTouch">
                 Get In Touch 👋
               </button>
             </a>
