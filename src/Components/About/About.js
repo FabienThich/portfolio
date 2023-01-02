@@ -8,8 +8,8 @@ function About() {
       <h1>About Me</h1>
       <div className="row">
         <div className="col-md-6 col-sm-12">
-          <div>Text here</div>
-          <div>
+          <div style={{fontSize: "20px"}}></div>
+          <div className="text-center">
             <img className="stackLogo" src={ReactLogo} />
             <img className="stackLogo" src={BootstrapLogo} />
           </div>
