@@ -4,8 +4,6 @@ import BootstrapLogo from "../../assets/Bootstrap.svg";
 import PythonLogo from "../../assets/Python.svg";
 import NodeJSLogo from "../../assets/NodeJS.svg";
 
-// Look at most recent commit (Update About Me), use that format and use a br for line break
-
 function About() {
   return (
     <div className="container Pad">
@@ -13,14 +11,13 @@ function About() {
       <div className="aboutParent">
         <div className="col-md-6 col-sm-12 aboutDesc">
           <div style={{ fontSize: "20px" }}>
-            I am a Specialist High Skills Major student working as a Software
-            Engineer Intern for North P&D, Inc. I specialize in React.js,
-            Bootstrap and Python, though I am familiar with Node.js. I love
-            learning and working hands-on with the latest technologies. Outside
-            of tech, I have major interest in the stock market, sports, and
-            cooking.
+            I am a specialist high skills major student working as a software
+            engineer intern for North P&D, Inc. I specialize in React.js,
+            Bootstrap and Python, though I am familiarizing myself with Node.js.
+            I love learning and working hands-on with the latest technologies.
+            Outside of tech, I have major interest in the stock market, sports,
+            and cooking.
           </div>
-
           <div className="d-flex justify-content-between">
             <img className="stackLogo" src={ReactLogo} />
             <img className="stackLogo" src={BootstrapLogo} />

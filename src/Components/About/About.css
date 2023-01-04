@@ -20,8 +20,6 @@
 .stackLogo {
   width: 5em;
   height: 5em;
-  /* margin-left: 1.75em;
-  margin-right: 1.75em; */
 }
 
 .myHeadshot {
@@ -30,16 +28,3 @@
   width: 20em;
   height: 20em;
 }
-
-/*
-@media only screen and (max-width: 768px) {
-  .myHeadshot {
-    width: 100%;
-  }
-}
-
-@media only screen and (max-width: 992px) {
-  .myHeadshot {
-    width: 75%;
-  }
-} */
