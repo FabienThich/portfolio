@@ -10,8 +10,8 @@ function About() {
   return (
     <div className="container Pad">
       <h1>About Me</h1>
-      <div className="row">
-        <div className="col-md-6 col-sm-12">
+      <div className="aboutParent">
+        <div className="col-md-6 col-sm-12 aboutDesc">
           <div style={{ fontSize: "20px" }}>
             I am a Specialist High Skills Major student working as a Software
             Engineer Intern for North P&D, Inc. I specialize in React.js,
@@ -20,7 +20,7 @@ function About() {
             of tech, I have major interest in the stock market, sports, and
             cooking.
           </div>
-          <div className="p-4"></div>
+
           <div className="d-flex justify-content-between">
             <img className="stackLogo" src={ReactLogo} />
             <img className="stackLogo" src={BootstrapLogo} />
@@ -28,7 +28,7 @@ function About() {
             <img className="stackLogo" src={NodeJSLogo} />
           </div>
         </div>
-        <div className="col-md-6 col-sm-12 text-center">
+        <div className="col-md-6 col-sm-12 aboutImage">
           <img
             className="myHeadshot"
             src="https://sdk.bitmoji.com/render/panel/a41da708-81e9-4ec3-9364-9d8748f7063d-0c814c04-ec17-4cf9-adea-101958aaede1-v1.png?transparent=1&palette=1"

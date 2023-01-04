@@ -1,6 +1,25 @@
+.aboutParent {
+  margin-top: 2em;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.aboutDesc {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  justify-content: space-around;
+}
+
+.aboutImage {
+  display: flex;
+  flex-grow: 1;
+  justify-content: center;
+}
+
 .stackLogo {
-  width: 4em;
-  height: 4em;
+  width: 5em;
+  height: 5em;
   /* margin-left: 1.75em;
   margin-right: 1.75em; */
 }
@@ -8,9 +27,11 @@
 .myHeadshot {
   background-color: #292b2c;
   border-radius: 10%;
-  width: 45%;
+  width: 20em;
+  height: 20em;
 }
 
+/*
 @media only screen and (max-width: 768px) {
   .myHeadshot {
     width: 100%;
@@ -21,4 +42,4 @@
   .myHeadshot {
     width: 75%;
   }
-}
+} */
