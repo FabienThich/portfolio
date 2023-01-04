@@ -1,6 +1,10 @@
 import "./About.css";
-import ReactLogo from '../../assets/React.svg'
-import BootstrapLogo from '../../assets/Bootstrap.svg'
+import ReactLogo from "../../assets/React.svg";
+import BootstrapLogo from "../../assets/Bootstrap.svg";
+import PythonLogo from "../../assets/Python.svg";
+import NodeJSLogo from "../../assets/NodeJS.svg";
+
+// Look at most recent commit (Update About Me), use that format and use a br for line break
 
 function About() {
   return (
@@ -8,19 +12,27 @@ function About() {
       <h1>About Me</h1>
       <div className="row">
         <div className="col-md-6 col-sm-12">
-          <div style={{fontSize: "20px"}}></div>
-          <div className="text-center">
+          <div style={{ fontSize: "20px" }}>
+            I am a Specialist High Skills Major student working as a Software
+            Engineer Intern for North P&D, Inc. I specialize in React.js,
+            Bootstrap and Python, though I am familiar with Node.js. I love
+            learning and working hands-on with the latest technologies. Outside
+            of tech, I have major interest in the stock market, sports, and
+            cooking.
+          </div>
+          <div className="p-4"></div>
+          <div className="d-flex justify-content-between">
             <img className="stackLogo" src={ReactLogo} />
             <img className="stackLogo" src={BootstrapLogo} />
+            <img className="stackLogo" src={PythonLogo} />
+            <img className="stackLogo" src={NodeJSLogo} />
           </div>
         </div>
-        <div className="col-md-6 col-sm-12 d-flex justify-content-center">
-          <div className="rounded-5 bg-dark">
-            <img
-              className="myHeadshot"
-              src="https://sdk.bitmoji.com/render/panel/a41da708-81e9-4ec3-9364-9d8748f7063d-0c814c04-ec17-4cf9-adea-101958aaede1-v1.png?transparent=1&palette=1"
-            />
-          </div>
+        <div className="col-md-6 col-sm-12 text-center">
+          <img
+            className="myHeadshot"
+            src="https://sdk.bitmoji.com/render/panel/a41da708-81e9-4ec3-9364-9d8748f7063d-0c814c04-ec17-4cf9-adea-101958aaede1-v1.png?transparent=1&palette=1"
+          />
         </div>
       </div>
     </div>

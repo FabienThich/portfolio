@@ -1,10 +1,24 @@
 .stackLogo {
-  width: 8em;
-  height: 8em;
+  width: 4em;
+  height: 4em;
+  /* margin-left: 1.75em;
+  margin-right: 1.75em; */
 }
 
 .myHeadshot {
-  margin: 2em;
-  border-radius: 5%;
-  width: 15em;
+  background-color: #292b2c;
+  border-radius: 10%;
+  width: 45%;
+}
+
+@media only screen and (max-width: 768px) {
+  .myHeadshot {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .myHeadshot {
+    width: 75%;
+  }
 }
