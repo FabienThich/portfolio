@@ -1,7 +1,9 @@
+import "./Resume.css";
+
 function Resume() {
   return (
     <div className="container Pad">
-      <div style={{ height: "100vh" }}>hello from 2</div>
+      <h1>Resume</h1>
     </div>
   );
 }

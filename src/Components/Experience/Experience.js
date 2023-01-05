@@ -4,7 +4,7 @@ import Cards from "./Cards.js";
 function Experience() {
   return (
     <div className="container Pad">
-      <h1 className="exceptionalPad">Experience</h1>
+      <h1>Experience</h1>
       <div className="row">
         {Cards.map((card) => {
           return (
