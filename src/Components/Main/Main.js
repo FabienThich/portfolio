@@ -23,7 +23,7 @@ function Main() {
   return (
     <div>
       <Navbar
-        bg="dark"
+        style={{backgroundColor: "black"}}
         variant="dark"
         sticky="top"
         expand="lg"
