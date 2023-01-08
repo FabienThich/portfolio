@@ -1,0 +1,17 @@
+.CarouselParent {
+  background-color: black;
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.carouselImage {
+  max-height: 20em;
+}
+
+.carouselDesc {
+  color: white;
+  padding: 2rem;
+  font-size: 20px;
+}
