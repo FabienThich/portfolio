@@ -4,8 +4,8 @@ import { Navbar, Nav } from "react-bootstrap";
 import { Link, Element } from "react-scroll";
 import Home from "../Home/Home";
 import About from "../About/About";
-import Resume from "../Resume/Resume";
 import Experience from "../Experience/Experience";
+import Achievements from "../Achievements/Achievements";
 import Contact from "../Contact/Contact";
 
 function Main() {
@@ -63,18 +63,6 @@ function Main() {
             <li className="navli">
               <Link
                 className="navLink"
-                to="resume"
-                spy={true}
-                smooth={true}
-                offset={0}
-                duration={0}
-              >
-                Resume
-              </Link>
-            </li>
-            <li className="navli">
-              <Link
-                className="navLink"
                 to="experience"
                 spy={true}
                 smooth={true}
@@ -82,6 +70,18 @@ function Main() {
                 duration={0}
               >
                 Experience
+              </Link>
+            </li>
+            <li className="navli">
+              <Link
+                className="navLink"
+                to="achievements"
+                spy={true}
+                smooth={true}
+                offset={0}
+                duration={0}
+              >
+                Achievements
               </Link>
             </li>
             <li className="navli">
@@ -116,11 +116,11 @@ function Main() {
       <Element name="about">
         <About />
       </Element>
-      <Element name="resume">
-        <Resume />
-      </Element>
       <Element name="experience">
         <Experience />
+      </Element>
+      <Element name="achievements">
+        <Achievements />
       </Element>
       <Element name="contact">
         <Contact />

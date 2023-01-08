@@ -1,33 +1,37 @@
 import "./Experience.css";
-import Cards from "./Cards.js";
+import Carousel from "react-bootstrap/Carousel";
+import CarouselData from "./Carousel.js";
 
 function Experience() {
   return (
-    <div className="container Pad">
-      <h1>Experience</h1>
-      <div className="row">
-        {Cards.map((card) => {
-          return (
-            <div className="col-lg-4 col-md-6 col-sm-12 g-5">
-              <div className="card">
-                <img src={card.image} className="card-img-top" />
-                <div className="card-body">
-                  <h5 className="card-title">
-                    {card.title}
-                    <p className="status">{card.status}</p>
-                  </h5>
-                  <p className="card-text">{card.description}</p>
-                  <a
-                    href={card.link}
-                    className="btn btn-dark rounded-pill seeMore"
-                  >
-                    See More
-                  </a>
+    <div style={{ backgroundColor: "black" }} className="Pad">
+      <div className="container">
+        <h1 className="darkHeading">Experience</h1>
+        <Carousel className="CarouselParent">
+          {CarouselData.map((data) => {
+            return (
+              <Carousel.Item>
+                <div className="row">
+                  <div className="col-md-6 col-sm-12 carouselImageFrame">
+                    <a href={data.link}>
+                      <img
+                        className="carouselImage rounded-5"
+                        src={data.image}
+                      />
+                    </a>
+                  </div>
+                  <div className="col-md-5 col-sm-12 carouselDesc">
+                    <h3>
+                      {data.title}
+                      <p className="status">{data.status}</p>
+                    </h3>
+                    <p>{data.description}</p>
+                  </div>
                 </div>
-              </div>
-            </div>
-          );
-        })}
+              </Carousel.Item>
+            );
+          })}
+        </Carousel>
       </div>
     </div>
   );
