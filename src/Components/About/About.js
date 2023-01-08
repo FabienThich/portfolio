@@ -6,7 +6,7 @@ import NodeJSLogo from "../../assets/NodeJS.svg";
 
 function About() {
   return (
-    <div className="container Pad">
+    <div className="container PadExempt">
       <h1>About Me</h1>
       <div className="aboutParent">
         <div className="col-md-6 col-sm-12 aboutDesc">
