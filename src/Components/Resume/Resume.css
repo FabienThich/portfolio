@@ -1,17 +1,52 @@
 .CarouselParent {
-  background-color: black;
-  height: 90vh;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.carouselImageFrame {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .carouselImage {
-  max-height: 20em;
+  margin: 1.5em;
+  width: 25em;
+  height: 15em;
+  object-fit: cover;
+  object-position: middle;
+  box-shadow: 5px 10px 18px #f2f3f56d;
+  transition: transform 0.3s;
+}
+
+.carouselImage:hover {
+  transform: scale(1.05);
 }
 
 .carouselDesc {
   color: white;
   padding: 2rem;
   font-size: 20px;
+}
+
+.status {
+  float: right;
+  color: orange;
+  font-size: 0.5em;
+}
+
+@media only screen and (max-width: 992px) {
+  .carouselImage {
+    margin: 0;
+    width: 20em;
+    height: 15em;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .carouselDesc {
+    font-size: 18px;
+  }
 }
