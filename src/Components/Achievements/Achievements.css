@@ -1,3 +1,27 @@
+.TabsFrame {
+  background-color: white;
+  border-top: 10px solid #f2f3f5;
+}
+
+.Tabs {
+  color: black;
+  text-decoration: none;
+}
+
+.Tabs:hover {
+  color: black;
+  background-color: #f2f3f5;
+}
+
+.TabsContent {
+  border: 10px solid #f2f3f5;
+  background-color: white;
+  padding: 2em;
+  height: 30em;
+}
+
+/* Academic */
+
 .card-img-top {
   width: 100%;
   height: 10em;
@@ -19,4 +43,10 @@
 
 .seeMore:hover {
   transform: scale(1.1);
+}
+
+/* Certifications */
+
+.TableFrame {
+  font-size: 20px;
 }

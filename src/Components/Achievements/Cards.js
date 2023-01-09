@@ -25,36 +25,9 @@ const Cards = [
     title: "Calculator",
     status: "",
     description:
-      "A simple calculator built with React.js as a learning project.",
+      "A simple calculator built with React.js as a learning project. SPACE SPACE SPACE SPACE SPACE SPACE",
     image: Calculator,
     link: "https://fabienthich.github.io/calculator",
-  },
-
-  {
-    title: "SVG Lag",
-    status: "",
-    description:
-      "Implemented a solution to resolve a delayed loading for a Scalable Vector Graphic of a map.",
-    image: JPCountries,
-    link: "https://www.jpabadir.com/countries",
-  },
-  
-  {
-    title: "SVG Lag",
-    status: "",
-    description:
-      "Some quick example text to build on the card title and make up the bulk of the card's content.",
-    image: JPCountries,
-    link: "https://www.jpabadir.com/countries",
-  },
-
-  {
-    title: "SVG Lag",
-    status: "",
-    description:
-      "Some quick example text to build on the card title and make up the bulk of the card's content.",
-    image: JPCountries,
-    link: "https://www.jpabadir.com/countries",
   },
 ];
 

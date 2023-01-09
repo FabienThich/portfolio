@@ -101,7 +101,7 @@ function Main() {
                 to="home"
                 spy={true}
                 smooth={true}
-                offset={0}
+                offset={-90}
                 duration={0}
               >
                 <div className="backToTop">^</div>
