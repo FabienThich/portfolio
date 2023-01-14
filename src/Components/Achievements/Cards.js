@@ -1,33 +1,30 @@
-import PersonalWebsite from "../../assets/Personal Website.png";
-import Calculator from "../../assets/Calculator.png";
-import JPCountries from "../../assets/JPCountries.png";
+import MemoryGame from "../../assets/MemoryGame.png";
+import ClassesLab from "../../assets/ClassesLab.png";
+import Hangman from "../../assets/Hangman.png";
 
 const Cards = [
   {
-    title: "Fabien. T",
-    status: "In Progress",
+    title: "Memory Game",
     description:
-      "Personal website that documents my experience at North P&D as well as my education history.",
-    image: PersonalWebsite,
-    link: "https://fabienthich.github.io/",
+      "Collaborated with a classmate for a culminating activity to build a memory game using python.",
+    image: MemoryGame,
+    link: "https://github.com/FabienThich/ICS3U1-Memory-Game",
   },
 
   {
-    title: "Budget Planner",
-    status: "Coming Soon",
+    title: "Art Generator",
     description:
-      "Some quick example text to build on the card title and make up the bulk of the card's content.",
-    image: JPCountries,
-    link: "https://www.jpabadir.com/countries",
+      "Creates art by randomly displaying different shapes with different colours in different places.",
+    image: ClassesLab,
+    link: "https://github.com/FabienThich/ICS3U1-Classes-Lab",
   },
 
   {
-    title: "Calculator",
-    status: "",
+    title: "Hangman",
     description:
-      "A simple calculator built with React.js as a learning project. SPACE SPACE SPACE SPACE SPACE SPACE",
-    image: Calculator,
-    link: "https://fabienthich.github.io/calculator",
+      "Collaborated with a classmate for a class project to build a hangman game using python.",
+    image: Hangman,
+    link: "https://github.com/FabienThich/ICS3U1-Hangman",
   },
 ];
 
