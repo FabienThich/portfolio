@@ -6,7 +6,7 @@ import CertTable from "./Table.js";
 
 function Achievements() {
   return (
-    <div className="container Pad border">
+    <div className="container Pad">
       <h1>Achievements</h1>
 
       <Tabs
@@ -19,12 +19,12 @@ function Achievements() {
           title="Academic"
           tabClassName="Tabs"
           eventKey="academic"
-          className="TabsContent rounded-3"
+          className="TabsContentExempt rounded-3"
         >
           <div className="row">
             {Cards.map((card) => {
               return (
-                <div className="col-lg-4 col-md-6 col-sm-12 g-5">
+                <div className="col-lg-4 col-md-6 col-sm-12 mb-3">
                   <div className="card">
                     <img src={card.image} className="card-img-top" />
                     <div className="card-body">
@@ -74,12 +74,21 @@ function Achievements() {
           </Table>
         </Tab>
         <Tab
-          title="Promo Video"
+          title="Video"
           tabClassName="Tabs"
           eventKey="promo"
           className="TabsContent rounded-3"
         >
-          hi
+          <div
+            className="text-center"
+            style={{ width: "100%", height: "100%" }}
+          >
+            <iframe
+              className="promoVideo"
+              src="https://www.youtube.com/embed/kCmV9_Y_kqs"
+            />
+            {/* This iframe, or GET causes errors in console */}
+          </div>
         </Tab>
       </Tabs>
     </div>

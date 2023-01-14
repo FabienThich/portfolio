@@ -5,7 +5,7 @@ import GitHub from '../../assets/GitHub.svg'
 
 function Home() {
   return (
-    <div className="container">
+    <div className="container" style={{height: "90vh"}}>
       <div className="row homeStarter">
         <div className="col-md-6 col-sm-12">
           <h4 className="myGreeting">Hello, I am...</h4>
@@ -30,7 +30,7 @@ function Home() {
                   duration: 0,
                   smooth: true,
                   spy: true,
-                  offset: -85,
+                  offset: 40,
                 });
               }}
             >

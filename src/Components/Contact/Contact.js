@@ -2,9 +2,9 @@ import "./Contact.css";
 
 function Contact() {
   return (
-    <div className="full">
-      <div className="container Pad">
-        <h1 style={{ color: "white" }}>Contact Me</h1>
+    <div style={{ backgroundColor: "black" }} className="Pad">
+      <div className="container">
+        <h1 className="darkHeading">Contact</h1>
         <div className="row justify-content-center">
           <div className="col-lg-6 col-md-8 col-sm-12 rounded-5 wholeForm">
             <form
@@ -14,13 +14,13 @@ function Contact() {
               <input type="text" name="_honey" style={{ display: "none" }} />
               <input type="hidden" name="_captcha" value="false" />
               <input type="hidden" name="_template" value="box" />
-              
+
               <input
                 type="hidden"
                 name="_subject"
                 value="A visitor left a message on your portfolio!"
               />
-              
+
               <input
                 type="hidden"
                 name="_next"

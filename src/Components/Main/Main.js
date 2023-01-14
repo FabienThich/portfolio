@@ -54,7 +54,7 @@ function Main() {
                 to="about"
                 spy={true}
                 smooth={true}
-                offset={0}
+                offset={-90}
                 duration={0}
               >
                 About
@@ -66,7 +66,7 @@ function Main() {
                 to="experience"
                 spy={true}
                 smooth={true}
-                offset={0}
+                offset={50}
                 duration={0}
               >
                 Experience
@@ -78,7 +78,7 @@ function Main() {
                 to="achievements"
                 spy={true}
                 smooth={true}
-                offset={0}
+                offset={50}
                 duration={0}
               >
                 Achievements
@@ -90,7 +90,7 @@ function Main() {
                 to="contact"
                 spy={true}
                 smooth={true}
-                offset={0}
+                offset={50}
                 duration={0}
               >
                 Contact

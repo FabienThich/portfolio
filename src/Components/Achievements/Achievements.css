@@ -20,6 +20,19 @@
   height: 30em;
 }
 
+.TabsContentExempt {
+  border: 10px solid #f2f3f5;
+  background-color: white;
+  padding: 2em;
+  height: 30em;
+}
+
+@media only screen and (max-width: 768px) {
+  .TabsContentExempt {
+    height: 100%;
+  }
+}
+
 /* Academic */
 
 .card-img-top {
@@ -48,5 +61,18 @@
 /* Certifications */
 
 .TableFrame {
-  font-size: 20px;
+  font-size: 18px;
+}
+
+/* Promo Video */
+.promoVideo {
+  height: 100%;
+  width: 56%;
+}
+
+@media only screen and (max-width: 1200px) {
+  .promoVideo {
+    width: 100%;
+    height: 100%;
+  }
 }
