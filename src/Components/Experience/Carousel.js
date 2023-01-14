@@ -40,12 +40,12 @@ const CarouselData = [
   },
 
   {
-    title: "SVG Lag",
+    title: "Navigation Bug",
     status: "",
     description:
-      "Some quick example text to build on the card title and make up the bulk of the card's content.",
+      "Implemented a solution which prevented users from clicking on the same navigation destination twice in a row.",
     image: JPCountries,
-    link: "https://www.jpabadir.com/countries",
+    link: "https://www.northpnd.com/",
   },
 
   {
