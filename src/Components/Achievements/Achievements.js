@@ -37,7 +37,7 @@ function Achievements() {
                         href={card.link}
                         className="btn btn-dark rounded-pill seeMore"
                       >
-                        See More
+                        View Repo
                       </a>
                     </div>
                   </div>
@@ -57,7 +57,7 @@ function Achievements() {
               <tr>
                 <th>Date</th>
                 <th>Certificate Name</th>
-                <th>Company</th>
+                <th>Issuer</th>
               </tr>
             </thead>
             <tbody>
