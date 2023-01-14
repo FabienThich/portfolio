@@ -1,7 +1,8 @@
 import "./Home.css";
-import { scroller } from "react-scroll";
+// import { scroller } from "react-scroll";
 import LinkedIn from '../../assets/LinkedIn.svg'
 import GitHub from '../../assets/GitHub.svg'
+import Resume from "../../assets/Resume.png"
 
 function Home() {
   return (
@@ -23,8 +24,8 @@ function Home() {
             </a>
           </div>
 
-          <div className="col getInTouchSpace">
-            <a
+          <div className="col downloadResumeSpace">
+            {/* <a
               onClick={() => {
                 scroller.scrollTo("contact", {
                   duration: 0,
@@ -37,12 +38,12 @@ function Home() {
               <button className="btn btn-primary rounded-pill getInTouch">
                 Get In Touch 👋
               </button>
-            </a>
-            {/* <a download="Resume.pdf">
-              <button className="btn btn-primary rounded-pill download">
+            </a> */}
+            <a href={Resume} download="Resume - Fabien Thich">
+              <button className="btn btn-primary rounded-pill downloadResume">
                 Download Resume
               </button>
-            </a> */}
+            </a>
           </div>
         </div>
         <div className="col-md-6 col-sm-12"></div>

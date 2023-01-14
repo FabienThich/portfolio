@@ -22,17 +22,17 @@
 
 /* GetInTouch Button */
 
-.getInTouchSpace {
+.downloadResumeSpace {
   margin: 2rem;
   padding-top: 2em; 
   /* Remove padding-top if nessessary  */
 }
 
-.getInTouch {
+.downloadResume {
   transition: transform 0.2s;
 }
 
-.getInTouch:hover {
+.downloadResume:hover {
   transform: scale(1.1);
 }
 
