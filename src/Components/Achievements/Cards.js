@@ -22,7 +22,7 @@ const Cards = [
   {
     title: "Hangman",
     description:
-      "Collaborated with a classmate for a class project to build a hangman game using python.",
+      "Collaborated with a classmate for a class project to build a hangman game using python basics.",
     image: Hangman,
     link: "https://github.com/FabienThich/ICS3U1-Hangman",
   },
