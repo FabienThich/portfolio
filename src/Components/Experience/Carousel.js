@@ -1,6 +1,9 @@
 import PersonalWebsite from "../../assets/Personal Website.png";
 import Calculator from "../../assets/Calculator.png";
 import JPCountries from "../../assets/JPCountries.png";
+import NavBug from "../../assets/NavBug.png"
+import TellMeMoreBug from "../../assets/TellMeMoreBug.png"
+import ComingSoon from "../../assets/ComingSoon.png"
 
 const CarouselData = [
   {
@@ -13,48 +16,48 @@ const CarouselData = [
   },
 
   {
-    title: "Budget Planner",
-    status: "Coming Soon",
-    description:
-      "Some quick example text to build on the card title and make up the bulk of the card's content.",
-    image: JPCountries,
-    link: "https://www.jpabadir.com/countries",
-  },
-
-  {
     title: "Calculator",
     status: "",
     description:
-      "A simple calculator built with React.js as a learning project.",
+    "A simple calculator built with React.js as a learning project.",
     image: Calculator,
     link: "https://fabienthich.github.io/calculator",
   },
-
+  
   {
     title: "SVG Lag",
     status: "",
     description:
-      "Implemented a solution to resolve a delayed loading for a Scalable Vector Graphic of a map.",
+    "Implemented a solution to resolve a delayed loading for a Scalable Vector Graphic of a map.",
     image: JPCountries,
     link: "https://www.jpabadir.com/countries",
   },
-
+  
   {
     title: "Navigation Bug",
     status: "",
     description:
-      "Implemented a solution which prevented users from clicking on the same navigation destination twice in a row.",
-    image: JPCountries,
+    "Implemented a solution which prevented users from clicking on the same navigation destination twice in a row.",
+    image: NavBug,
+    link: "https://www.northpnd.com/",
+  },
+  
+  {
+    title: "Stalling Bug",
+    status: "",
+    description:
+    "Debugged React.js code that caused the scrolling to the about section to stall before actually scrolling when the user clicked on “Tell Me More”.",
+    image: TellMeMoreBug,
     link: "https://www.northpnd.com/",
   },
 
   {
-    title: "SVG Lag",
-    status: "",
+    title: "Budget Planner",
+    status: "Coming Soon",
     description:
-      "Some quick example text to build on the card title and make up the bulk of the card's content.",
-    image: JPCountries,
-    link: "https://www.jpabadir.com/countries",
+      "Stay tuned...",
+    image: ComingSoon,
+    link: "",
   },
 ];
 
