@@ -1,12 +1,12 @@
 import "./Home.css";
 // import { scroller } from "react-scroll";
-import LinkedIn from '../../assets/LinkedIn.svg'
-import GitHub from '../../assets/GitHub.svg'
-import Resume from "../../assets/Resume.png"
+import LinkedIn from "../../assets/LinkedIn.svg";
+import GitHub from "../../assets/GitHub.svg";
+import Resume from "../../assets/Resume.png";
 
 function Home() {
   return (
-    <div className="container" style={{height: "90vh"}}>
+    <div className="container" style={{ height: "90vh" }}>
       <div className="row homeStarter">
         <div className="col-md-6 col-sm-12">
           <h4 className="myGreeting">Hello, I am...</h4>
