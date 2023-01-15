@@ -90,6 +90,38 @@ function Achievements() {
             {/* This iframe, or GET causes errors in console */}
           </div>
         </Tab>
+        <Tab
+          title="Volunteer"
+          tabClassName="Tabs"
+          eventKey="volunteer"
+          className="TabsContentExempt rounded-3"
+        >
+          <div className="row mt-5 d-flex justify-content-around text-center">
+            <div className="col-md-5 col-sm-12 mb-3">
+              <h4 style={{ fontWeight: "bold" }}>Pham Learning</h4>
+              <p className="volDesc mt-5">Description:</p>
+              <p>
+                Managed invoices and updated customer files through Wave
+                Financial Services as well as log new customers into the
+                companies online business system.
+              </p>
+              <p className="volDesc mt-5">Date:</p>
+              <p>Oct ‘21 - July ‘22</p>
+            </div>
+
+            <div className="col-md-5 col-sm-12 mb-3">
+              <h4 style={{ fontWeight: "bold" }}>Northview Heights</h4>
+              <p className="volDesc mt-5">Description:</p>
+              <p>
+                Promoted SHSM and co-op at a grade 8 information night for
+                parents and future students of Northview Heights. As well, I
+                spoke to parents about concerns and the process to apply.
+              </p>
+              <p className="volDesc mt-5">Date:</p>
+              <p>Nov 17, 2022</p>
+            </div>
+          </div>
+        </Tab>
       </Tabs>
     </div>
   );

@@ -70,3 +70,9 @@
     height: 100%;
   }
 }
+
+/* Volunteer */
+.volDesc {
+  font-weight: bold;
+  font-size: 18px;
+}
