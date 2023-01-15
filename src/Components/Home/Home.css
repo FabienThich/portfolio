@@ -1,13 +1,21 @@
+.HomeBackground {
+  background-image: url("../../assets/HomeBackground.png");
+  background-position: center;
+  background-color: black;
+  margin-bottom: 2em;
+}
+
 /* Introduction */
 
 .homeStarter {
   padding-top: 4em;
   padding-bottom: 5em;
+  text-shadow: 5px 6px 30px #f2f3f5;
 }
 
 .myGreeting {
   font-size: 32px;
-  margin-top: 2rem;
+  padding-top: 2rem;
 }
 
 .myName {
@@ -20,7 +28,7 @@
   margin-top: 2rem;
 }
 
-/* GetInTouch Button */
+/* Download Button */
 
 .downloadResumeSpace {
   margin-top: 2rem;
@@ -30,6 +38,7 @@
 
 .downloadResume {
   transition: transform 0.2s;
+  box-shadow: 4px 5px 20px #f2f3f5;
 }
 
 .downloadResume:hover {
@@ -48,6 +57,7 @@
   margin-left: 1rem;
   margin-right: 1rem;
   border-radius: 50%;
+  box-shadow: 2px 3px 20px #f2f3f5;
   transition: transform 0.3s;
 }
 

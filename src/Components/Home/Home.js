@@ -6,16 +6,16 @@ import Resume from "../../assets/Resume.png";
 
 function Home() {
   return (
-    <div className="container" style={{ height: "90vh" }}>
-      <div className="row homeStarter text-center">
-        <div className="col-12">
+    <div className="HomeBackground">
+      <div className="container" style={{ height: "90vh", color: "white" }}>
+        <div className="homeStarter text-center">
           <h4 className="myGreeting">Hello, I am...</h4>
           <h2 className="myName">Fabien Thich</h2>
           <div className="myStatus">
             Software Engineer Intern For North P&D, Inc.
           </div>
 
-          <div className="col socialSpace">
+          <div className="socialSpace">
             <a href="https://www.linkedin.com/in/fabienthich">
               <img className="socials" src={LinkedIn} />
             </a>
@@ -24,7 +24,7 @@ function Home() {
             </a>
           </div>
 
-          <div className="col downloadResumeSpace">
+          <div className="downloadResumeSpace">
             {/* <a
               onClick={() => {
                 scroller.scrollTo("contact", {
@@ -40,13 +40,12 @@ function Home() {
               </button>
             </a> */}
             <a href={Resume} download="Resume - Fabien Thich">
-              <button className="btn btn-primary rounded-pill downloadResume">
+              <button className="btn btn-light rounded-pill downloadResume">
                 Download Resume
               </button>
             </a>
           </div>
         </div>
-        {/* <div className="col-md-6 col-sm-12"></div> */}
       </div>
     </div>
   );
