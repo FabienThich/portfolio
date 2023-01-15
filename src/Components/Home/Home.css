@@ -7,23 +7,23 @@
 
 .myGreeting {
   font-size: 32px;
-  margin: 2rem;
+  margin-top: 2rem;
 }
 
 .myName {
   font-size: 80px;
-  margin: 2rem;
+  margin-top: 2rem;
 }
 
 .myStatus {
   font-size: 16px;
-  margin: 2rem;
+  margin-top: 2rem;
 }
 
 /* GetInTouch Button */
 
 .downloadResumeSpace {
-  margin: 2rem;
+  margin-top: 2rem;
   padding-top: 2em;
   /* Remove padding-top if nessessary  */
 }
@@ -39,12 +39,14 @@
 /* Social Icons */
 
 .socialSpace {
-  margin: 2rem;
+  margin-top: 2rem;
 }
 
 .socials {
   width: 3em;
-  margin-right: 2rem;
+  margin-top: 1rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
   border-radius: 50%;
   transition: transform 0.3s;
 }

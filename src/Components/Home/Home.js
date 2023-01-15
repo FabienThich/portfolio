@@ -7,8 +7,8 @@ import Resume from "../../assets/Resume.png";
 function Home() {
   return (
     <div className="container" style={{ height: "90vh" }}>
-      <div className="row homeStarter">
-        <div className="col-md-6 col-sm-12">
+      <div className="row homeStarter text-center">
+        <div className="col-12">
           <h4 className="myGreeting">Hello, I am...</h4>
           <h2 className="myName">Fabien Thich</h2>
           <div className="myStatus">
@@ -46,7 +46,7 @@ function Home() {
             </a>
           </div>
         </div>
-        <div className="col-md-6 col-sm-12"></div>
+        {/* <div className="col-md-6 col-sm-12"></div> */}
       </div>
     </div>
   );
