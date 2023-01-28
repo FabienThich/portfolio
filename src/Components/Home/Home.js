@@ -12,15 +12,15 @@ function Home() {
           <h4 className="myGreeting">Hello, I am...</h4>
           <h2 className="myName">Fabien Thich</h2>
           <div className="myStatus">
-            Software Engineer Intern For North P&D, Inc.
+            Junior Software Engineer At North P&D, Inc.
           </div>
 
           <div className="socialSpace">
             <a href="https://www.linkedin.com/in/fabienthich">
-              <img className="socials" src={LinkedIn} />
+              <img className="socials" src={LinkedIn} alt="LinkedIn Icon" />
             </a>
             <a href="https://github.com/FabienThich">
-              <img className="socials" src={GitHub} />
+              <img className="socials" src={GitHub} alt="GitHub Icon" />
             </a>
           </div>
 
