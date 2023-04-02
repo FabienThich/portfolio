@@ -16,13 +16,17 @@ function Experience() {
                 <div className="row">
                   <div className="col-md-6 col-sm-12 carouselImageFrame">
                     <a href={data.link}>
-                      <img data-aos="zoom-in"
+                      <img
+                        data-aos="zoom-in"
                         className="carouselImage rounded-5"
                         src={data.image}
                       />
                     </a>
                   </div>
-                  <div data-aos="zoom-in" className="col-md-5 col-sm-12 carouselDesc">
+                  <div
+                    data-aos="zoom-in"
+                    className="col-md-5 col-sm-12 carouselDesc"
+                  >
                     <h3>
                       {data.title}
                       <p className="status">{data.status}</p>
