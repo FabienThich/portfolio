@@ -95,16 +95,18 @@ function Contact() {
                   required
                 />
               </div>
-
-              <button
+              <div
                 data-aos="fade-up"
                 data-aos-delay="200"
                 data-aos-offset="-100"
-                type="submit"
-                className="btn btn-dark rounded-pill submitForm"
               >
-                Send Form
-              </button>
+                <button
+                  type="submit"
+                  className="btn btn-dark rounded-pill submitForm"
+                >
+                  Send Form
+                </button>
+              </div>
             </form>
           </div>
         </div>
