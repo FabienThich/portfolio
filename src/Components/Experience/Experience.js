@@ -15,9 +15,8 @@ function Experience() {
               <Carousel.Item>
                 <div className="row">
                   <div className="col-md-6 col-sm-12 carouselImageFrame">
-                    <a href={data.link}>
+                    <a data-aos="zoom-in" href={data.link}>
                       <img
-                        data-aos="zoom-in"
                         className="carouselImage rounded-5"
                         src={data.image}
                       />
