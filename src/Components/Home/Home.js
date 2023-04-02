@@ -38,7 +38,7 @@ function Home() {
             </a>
           </div>
 
-          <div data-aos="fade" data-aos-delay="250" className="downloadResumeSpace">
+          <div className="downloadResumeSpace">
             {/* <a
               onClick={() => {
                 scroller.scrollTo("contact", {
@@ -54,7 +54,7 @@ function Home() {
               </button>
             </a> */}
             <a
-              data-aos="fade" data-aos-delay="300"
+              data-aos="fade" data-aos-delay="250"
               href={Resume}
               download="Resume - Fabien Thich"
             >
