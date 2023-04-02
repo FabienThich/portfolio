@@ -19,22 +19,12 @@ function Home() {
             Junior Software Engineer At North P&D, Inc.
           </div>
 
-          <div className="socialSpace">
+          <div data-aos="fade" data-aos-delay="200" className="socialSpace">
             <a href="https://www.linkedin.com/in/fabienthich">
-              <img
-                data-aos="fade" data-aos-delay="200"
-                className="socials"
-                src={LinkedIn}
-                alt="LinkedIn Icon"
-              />
+              <img className="socials" src={LinkedIn} alt="LinkedIn Icon" />
             </a>
             <a href="https://github.com/FabienThich">
-              <img
-                data-aos="fade" data-aos-delay="200"
-                className="socials"
-                src={GitHub}
-                alt="GitHub Icon"
-              />
+              <img className="socials" src={GitHub} alt="GitHub Icon" />
             </a>
           </div>
 
@@ -54,7 +44,8 @@ function Home() {
               </button>
             </a> */}
             <a
-              data-aos="fade" data-aos-delay="250"
+              data-aos="fade"
+              data-aos-delay="250"
               href={Resume}
               download="Resume - Fabien Thich"
             >
