@@ -3,6 +3,10 @@
   border-top: 10px solid #f2f3f5;
 }
 
+.TabsFrame > li.nav-item > .Tabs.active {
+  background-color: black;
+}
+
 .Tabs {
   color: black;
   text-decoration: none;
