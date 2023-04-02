@@ -9,22 +9,36 @@ function Home() {
     <div className="HomeBackground">
       <div className="container" style={{ height: "90vh", color: "white" }}>
         <div className="homeStarter text-center">
-          <h4 className="myGreeting">Hello, I am...</h4>
-          <h2 className="myName">Fabien Thich</h2>
-          <div className="myStatus">
+          <h4 data-aos="fade" data-aos-delay="50" className="myGreeting">
+            Hello, I am...
+          </h4>
+          <h2 data-aos="fade" data-aos-delay="100" className="myName">
+            Fabien Thich
+          </h2>
+          <div data-aos="fade" data-aos-delay="150" className="myStatus">
             Junior Software Engineer At North P&D, Inc.
           </div>
 
           <div className="socialSpace">
             <a href="https://www.linkedin.com/in/fabienthich">
-              <img className="socials" src={LinkedIn} alt="LinkedIn Icon" />
+              <img
+                data-aos="fade" data-aos-delay="200"
+                className="socials"
+                src={LinkedIn}
+                alt="LinkedIn Icon"
+              />
             </a>
             <a href="https://github.com/FabienThich">
-              <img className="socials" src={GitHub} alt="GitHub Icon" />
+              <img
+                data-aos="fade" data-aos-delay="200"
+                className="socials"
+                src={GitHub}
+                alt="GitHub Icon"
+              />
             </a>
           </div>
 
-          <div className="downloadResumeSpace">
+          <div data-aos="fade" data-aos-delay="250" className="downloadResumeSpace">
             {/* <a
               onClick={() => {
                 scroller.scrollTo("contact", {
@@ -39,7 +53,11 @@ function Home() {
                 Get In Touch 👋
               </button>
             </a> */}
-            <a href={Resume} download="Resume - Fabien Thich">
+            <a
+              data-aos="fade" data-aos-delay="300"
+              href={Resume}
+              download="Resume - Fabien Thich"
+            >
               <button className="btn btn-light rounded-pill downloadResume">
                 Download Resume
               </button>
