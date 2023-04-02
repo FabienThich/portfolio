@@ -25,7 +25,11 @@ function Achievements() {
             {Cards.map((card) => {
               return (
                 <div className="col-lg-4 col-md-6 col-sm-12 mb-3">
-                  <div data-aos="zoom-in" data-aos-offset="-50" className="card">
+                  <div
+                    data-aos="zoom-in"
+                    data-aos-offset="-50"
+                    className="card"
+                  >
                     <img src={card.image} className="card-img-top" />
                     <div className="card-body">
                       <h5 className="card-title">
