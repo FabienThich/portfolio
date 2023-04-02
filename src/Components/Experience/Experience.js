@@ -6,7 +6,9 @@ function Experience() {
   return (
     <div style={{ backgroundColor: "black" }} className="Pad">
       <div className="container">
-        <h1 className="darkHeading">Experience</h1>
+        <h1 data-aos="fade-up" className="darkHeading">
+          Experience
+        </h1>
         <Carousel className="CarouselParent">
           {CarouselData.map((data) => {
             return (
@@ -14,13 +16,13 @@ function Experience() {
                 <div className="row">
                   <div className="col-md-6 col-sm-12 carouselImageFrame">
                     <a href={data.link}>
-                      <img
+                      <img data-aos="zoom-in"
                         className="carouselImage rounded-5"
                         src={data.image}
                       />
                     </a>
                   </div>
-                  <div className="col-md-5 col-sm-12 carouselDesc">
+                  <div data-aos="zoom-in" className="col-md-5 col-sm-12 carouselDesc">
                     <h3>
                       {data.title}
                       <p className="status">{data.status}</p>
