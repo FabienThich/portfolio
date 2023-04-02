@@ -4,7 +4,9 @@ function Contact() {
   return (
     <div style={{ backgroundColor: "black" }} className="Pad">
       <div className="container">
-        <h1 className="darkHeading">Contact</h1>
+        <h1 data-aos="fade-up" className="darkHeading">
+          Contact
+        </h1>
         <div className="row justify-content-center">
           <div className="col-lg-6 col-md-8 col-sm-12 rounded-5 wholeForm">
             <form
@@ -27,10 +29,20 @@ function Contact() {
                 value="https://fabienthich.github.io/portfolio/"
               />
 
-              <div className="col">
+              <div
+                data-aos="fade-up"
+                data-aos-delay="50"
+                data-aos-offset="-100"
+                className="col"
+              >
                 <label for="name">Name</label>
               </div>
-              <div className="col">
+              <div
+                data-aos="fade-up"
+                data-aos-delay="50"
+                data-aos-offset="-100"
+                className="col"
+              >
                 <input
                   type="text"
                   name="name"
@@ -39,10 +51,20 @@ function Contact() {
                 />
               </div>
 
-              <div className="col">
+              <div
+                data-aos="fade-up"
+                data-aos-delay="100"
+                data-aos-offset="-100"
+                className="col"
+              >
                 <label for="email">Email</label>
               </div>
-              <div className="col">
+              <div
+                data-aos="fade-up"
+                data-aos-delay="100"
+                data-aos-offset="-100"
+                className="col"
+              >
                 <input
                   type="email"
                   name="email"
@@ -51,10 +73,20 @@ function Contact() {
                 />
               </div>
 
-              <div className="col">
+              <div
+                data-aos="fade-up"
+                data-aos-delay="150"
+                data-aos-offset="-100"
+                className="col"
+              >
                 <label for="message">Message</label>
               </div>
-              <div className="col">
+              <div
+                data-aos="fade-up"
+                data-aos-delay="150"
+                data-aos-offset="-100"
+                className="col"
+              >
                 <textarea
                   type="text"
                   name="message"
@@ -65,6 +97,9 @@ function Contact() {
               </div>
 
               <button
+                data-aos="fade-up"
+                data-aos-delay="200"
+                data-aos-offset="-100"
                 type="submit"
                 className="btn btn-dark rounded-pill submitForm"
               >
