@@ -16,7 +16,7 @@ function Home() {
             Fabien Thich
           </h2>
           <div data-aos="fade" data-aos-delay="150" className="myStatus">
-            Junior Software Engineer At North P&D, Inc.
+            Previous Junior Software Engineer At North P&D, Inc.
           </div>
 
           <div data-aos="fade" data-aos-delay="200" className="socialSpace">
