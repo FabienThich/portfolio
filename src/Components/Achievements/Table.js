@@ -16,6 +16,11 @@ const Table = [
     name: "Worker Health and Safety Awareness",
     company: "Ontario Ministry of Labour",
   },
+  {
+    date: "May 2023",
+    name: "Restricted Operator Certificate - Aeronautical",
+    company: "Innovation, Science and Economic Development Canada",
+  },
 ];
 
 export default Table;

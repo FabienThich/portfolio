@@ -50,7 +50,7 @@ function Achievements() {
           title="Certifications"
           tabClassName="Tabs"
           eventKey="certifications"
-          className="TabsContent rounded-3"
+          className="TabsContentExempt rounded-3"
         >
           <Table striped hover className="TableFrame">
             <thead>
