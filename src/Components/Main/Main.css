@@ -74,3 +74,8 @@
   cursor: pointer;
   opacity: 1;
 }
+
+.blurNav.active {
+  opacity: 90%;
+  /* filter: blur(2px); */
+}

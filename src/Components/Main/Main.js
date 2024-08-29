@@ -20,10 +20,22 @@ function Main() {
     });
   });
 
+  useEffect(() => {
+    const blurNav = document.querySelector(".blurNav");
+    window.addEventListener("scroll", () => {
+      if (window.pageYOffset > 100) {
+        blurNav.classList.add("active");
+      } else {
+        blurNav.classList.remove("active");
+      }
+    });
+  });
+
   return (
     <div>
       <Navbar
         style={{ backgroundColor: "black" }}
+        className="blurNav"
         variant="dark"
         sticky="top"
         expand="lg"
