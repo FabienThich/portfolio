@@ -11,19 +11,13 @@ function About() {
       <div className="aboutParent">
         <div className="col-md-6 col-sm-12 aboutDesc">
           <div data-aos="fade-up" style={{ fontSize: "20px" }}>
-            I am a Specialist High Skills Major student and former Junior
-            Software Engineer at North P&D, Inc. My expertise spans React.js,
-            Webflow, Bootstrap, and Python, with a growing proficiency in
-            Node.js. I am all about embracing the latest technologies and
-            learning hands-on. Apart from tech, I am an avid follower of the
-            stock market, sports, and enjoy whipping up culinary delights.
+            I am a Specialist High Skills Major graduate and former Junior
+            Software Engineer at North P&D, Inc., with expertise in React.js,
+            Webflow, Bootstrap, and Python. I am now focused on machine
+            learning, AI, and data science.
           </div>
           <div className="d-flex justify-content-between">
-            <img
-              data-aos="zoom-in-up"
-              className="stackLogo"
-              src={ReactLogo}
-            />
+            <img data-aos="zoom-in-up" className="stackLogo" src={ReactLogo} />
             <img
               data-aos="zoom-in-up"
               data-aos-delay="50"
