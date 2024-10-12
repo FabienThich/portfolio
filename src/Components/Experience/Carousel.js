@@ -15,14 +15,14 @@ const CarouselData = [
     link: "https://fabienthich.github.io/",
   },
 
-  {
-    title: "Calculator",
-    status: "",
-    description:
-    "A simple calculator built with React.js as a learning project.",
-    image: Calculator,
-    link: "https://fabienthich.github.io/calculator",
-  },
+  // {
+    // title: "Calculator",
+    // status: "",
+    // description:
+    // "A simple calculator built with React.js as a learning project.",
+    // image: Calculator,
+    // link: "https://fabienthich.github.io/calculator",
+  // },
   
   {
     title: "SVG Lag",
