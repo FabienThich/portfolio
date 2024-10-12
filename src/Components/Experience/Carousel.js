@@ -6,14 +6,14 @@ import TellMeMoreBug from "../../assets/TellMeMoreBug.png"
 import ComingSoon from "../../assets/ComingSoon.png"
 
 const CarouselData = [
-  {
-    title: "Overwatch Analysis",
-    status: "Completed",
-    description:
-      "Analyzed a Spotify dataset to investigate the relationship between popular songs within an album and other tracks' popularity and listener engagement.",
-    image: ComingSoon,
-    link: "https://fabienthich.github.io/",
-  },
+  // {
+  //   title: "Overwatch Analysis",
+  //   status: "Completed",
+  //   description:
+  //     "Analyzed a Spotify dataset to investigate the relationship between popular songs within an album and other tracks' popularity and listener engagement.",
+  //   image: ComingSoon,
+  //   link: "https://fabienthich.github.io/",
+  // },
 
   {
     title: "Fabien. T",
