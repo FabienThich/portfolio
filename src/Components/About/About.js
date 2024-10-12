@@ -11,10 +11,14 @@ function About() {
       <div className="aboutParent">
         <div className="col-md-6 col-sm-12 aboutDesc">
           <div data-aos="fade-up" style={{ fontSize: "20px" }}>
-            I am a Specialist High Skills Major graduate and former Junior
-            Software Engineer at North P&D, Inc., with expertise in React.js,
-            Webflow, Bootstrap, and Python. I am now focused on machine
-            learning, AI, and data science.
+            I'm a Specialist High Skills Major (SHSM) graduate and a former
+            Junior Software Engineer at North P&D, Inc., where I worked with
+            React.js, Webflow, Bootstrap, and Python. These days, I'm diving
+            into machine learning, AI, and data science. I'm also a Data Science
+            student at York University, building skills in Python, NumPy,
+            Pandas, Seaborn, and Matplotlib (just to name a few). I'm excited to
+            use these tools to tackle real-world problems in the data science
+            space.
           </div>
           <div className="d-flex justify-content-between">
             <img data-aos="zoom-in-up" className="stackLogo" src={ReactLogo} />
