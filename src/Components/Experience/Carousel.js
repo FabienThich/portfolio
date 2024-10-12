@@ -7,6 +7,15 @@ import ComingSoon from "../../assets/ComingSoon.png"
 
 const CarouselData = [
   {
+    title: "Overwatch Analysis",
+    status: "Completed",
+    description:
+      "Analyzed a Spotify dataset to investigate the relationship between popular songs within an album and other tracks' popularity and listener engagement.",
+    image: ComingSoon,
+    link: "https://fabienthich.github.io/",
+  },
+
+  {
     title: "Fabien. T",
     status: "In Progress",
     description:
@@ -51,14 +60,14 @@ const CarouselData = [
     link: "https://www.northpnd.com/",
   },
 
-  {
-    title: "Budget Planner",
-    status: "Coming Soon",
-    description:
-      "Stay tuned...",
-    image: ComingSoon,
-    link: "",
-  },
+  // {
+  //   title: "Budget Planner",
+  //   status: "Coming Soon",
+  //   description:
+  //     "Stay tuned...",
+  //   image: ComingSoon,
+  //   link: "",
+  // },
 ];
 
 export default CarouselData;
