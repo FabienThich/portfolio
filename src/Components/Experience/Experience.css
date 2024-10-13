@@ -39,7 +39,8 @@
   margin-bottom: 5em;
 }
 
-.carousel-control-prev-icon, .carousel-control-next-icon {
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
   margin-bottom: 20vh;
 }
 
@@ -57,10 +58,17 @@
     width: 20em;
     height: 15em;
   }
-}
 
-@media only screen and (max-width: 992px) {
   .carouselDesc {
     font-size: 18px;
+    margin-top: 2em;
+  }
+
+  .carousel-indicators {
+    margin-bottom: 1em;
+  }
+
+  .CarouselParent {
+    height: 80vh;
   }
 }
