@@ -32,7 +32,7 @@ function Contact() {
               <div
                 data-aos="fade-up"
                 data-aos-delay="50"
-                data-aos-offset="-100"
+                // data-aos-offset="-100"
                 className="col"
               >
                 <label for="name">Name</label>
@@ -40,7 +40,7 @@ function Contact() {
               <div
                 data-aos="fade-up"
                 data-aos-delay="50"
-                data-aos-offset="-100"
+                // data-aos-offset="-100"
                 className="col"
               >
                 <input
@@ -54,7 +54,7 @@ function Contact() {
               <div
                 data-aos="fade-up"
                 data-aos-delay="100"
-                data-aos-offset="-100"
+                // data-aos-offset="-100"
                 className="col"
               >
                 <label for="email">Email</label>
@@ -62,7 +62,7 @@ function Contact() {
               <div
                 data-aos="fade-up"
                 data-aos-delay="100"
-                data-aos-offset="-100"
+                // data-aos-offset="-100"
                 className="col"
               >
                 <input
@@ -76,7 +76,7 @@ function Contact() {
               <div
                 data-aos="fade-up"
                 data-aos-delay="150"
-                data-aos-offset="-100"
+                // data-aos-offset="-100"
                 className="col"
               >
                 <label for="message">Message</label>
@@ -84,7 +84,7 @@ function Contact() {
               <div
                 data-aos="fade-up"
                 data-aos-delay="150"
-                data-aos-offset="-100"
+                // data-aos-offset="-100"
                 className="col"
               >
                 <textarea
@@ -98,7 +98,7 @@ function Contact() {
               <div
                 data-aos="fade-up"
                 data-aos-delay="200"
-                data-aos-offset="-100"
+                // data-aos-offset="-100"
               >
                 <button
                   type="submit"

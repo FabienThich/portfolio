@@ -14,6 +14,7 @@ function Achievements() {
         justify
         variant="pills"
         defaultActiveKey="academic"
+        data-aos="fade-up"
       >
         <Tab
           title="Academic"
@@ -25,7 +26,7 @@ function Achievements() {
             {Cards.map((card) => {
               return (
                 <div className="col-lg-4 col-md-6 col-sm-12 mb-3">
-                  <div data-aos="fade-up" data-aos-offset="-50" className="card">
+                  <div data-aos="fade-up" className="card">
                     <img src={card.image} className="card-img-top" />
                     <div className="card-body">
                       <h5 className="card-title">
