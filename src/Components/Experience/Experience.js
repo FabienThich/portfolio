@@ -13,7 +13,7 @@ function Experience() {
           {CarouselData.map((data) => {
             return (
               <Carousel.Item>
-                <div className="row">
+                <div className="row align-items-center">
                   <div className="col-md-6 col-sm-12 carouselImageFrame">
                     <a data-aos="zoom-in" href={data.link}>
                       <img
@@ -30,7 +30,7 @@ function Experience() {
                       {data.title}
                       <p className="status">{data.status}</p>
                     </h3>
-                    <p>{data.description}</p>
+                    <p className="mt-4">{data.description}</p>
                   </div>
                 </div>
               </Carousel.Item>

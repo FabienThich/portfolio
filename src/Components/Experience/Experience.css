@@ -14,7 +14,7 @@
 .carouselImage {
   margin: 1.5em;
   width: 25em;
-  height: 15em;
+  height: 18em;
   object-fit: cover;
   object-position: middle;
   box-shadow: 5px 10px 18px #f2f3f56d;
@@ -27,7 +27,6 @@
 
 .carouselDesc {
   color: white;
-  padding: 2rem;
   font-size: 20px;
 }
 
