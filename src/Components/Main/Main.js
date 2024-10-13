@@ -67,7 +67,7 @@ function Main() {
                 to="about"
                 spy={true}
                 smooth={true}
-                offset={-90}
+                offset={-35}
                 duration={0}
               >
                 About
@@ -79,7 +79,7 @@ function Main() {
                 to="academicwork"
                 spy={true}
                 smooth={true}
-                offset={-90}
+                offset={-35}
                 duration={0}
               >
                 Academics
