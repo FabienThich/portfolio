@@ -1,8 +1,7 @@
 .CarouselParent {
-  height: 80vh;
+  height: 70vh;
   display: flex;
   justify-content: center;
-  align-items: center;
 }
 
 .carouselImageFrame {
@@ -34,6 +33,22 @@
   float: right;
   color: orange;
   font-size: 0.5em;
+}
+
+.carousel-indicators {
+  margin-bottom: 5em;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+  margin-bottom: 20vh;
+}
+
+.carousel-control-next-icon {
+  margin-left: 5em;
+}
+
+.carousel-control-prev-icon {
+  margin-right: 5em;
 }
 
 @media only screen and (max-width: 992px) {
