@@ -75,6 +75,11 @@
   opacity: 1;
 }
 
+.backToTop:hover {
+  background-color: black;
+  border: 2px solid blue;
+}
+
 .blurNav.active {
   opacity: 90%;
   /* filter: blur(2px); */
