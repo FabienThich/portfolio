@@ -116,8 +116,8 @@ function Contact() {
 
               <div
                 data-aos="fade-up"
-                data-aos-delay="200"
-                // data-aos-offset="-100"
+                data-aos-delay="250"
+                data-aos-offset="-100"
               >
                 <button
                   type="submit"
