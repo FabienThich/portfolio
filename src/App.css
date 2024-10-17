@@ -15,7 +15,7 @@ h1 {
   grid-template-columns: 1fr 2fr 1fr;
   align-items: center;
   column-gap: 1em;
-  text-shadow: 1px 1px 4px black;
+  /* text-shadow: 1px 1px 4px black; */
 }
 
 h1::before, h1::after {
@@ -34,7 +34,7 @@ h1::before, h1::after {
   grid-template-columns: 1fr 2fr 1fr;
   align-items: center;
   column-gap: 1em;
-  text-shadow: 2px 1px 4px white;
+  /* text-shadow: 2px 1px 4px white; */
 }
 
 .darkHeading::before, .darkHeading::after {
