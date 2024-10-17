@@ -100,6 +100,7 @@ function Contact() {
                 className="d-flex justify-content-center align-items-center mb-2"
                 data-aos="fade-up"
                 data-aos-delay="150"
+                data-aos-offset="-100"
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
