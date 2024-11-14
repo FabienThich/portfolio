@@ -22,7 +22,18 @@ const Work = [
     image:
       "https://wallpapers.com/images/featured/overwatch-dpacmg5qk3abi7qn.jpg",
     readLength: 5,
-    description: "Desc",
+    description:
+      "Data-driven insights on win rates and gameplay dynamics of teams on Overwatch escort maps.",
+    blog: "Blog",
+  },
+
+  {
+    title: "Global Air Pollution Analysis",
+    image:
+      "https://www.nrdc.org/sites/default/files/styles/social_sharing_1200x630/public/media-uploads/health4_26_airpollguide_istock_2796602_2400.jpg?h=c3635fa2&itok=HMTXSAJe",
+    readLength: 5,
+    description:
+      "An in-depth study of emissions and energy use trends to understand their impact on public health and the environment.",
     blog: "Blog",
   },
 ];
