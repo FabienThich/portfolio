@@ -8,6 +8,7 @@ import Experience from "../Experience/Experience";
 import Achievements from "../Achievements/Achievements";
 import Contact from "../Contact/Contact";
 import AcademicWork from "../AcademicWork/AcademicWork";
+import Project from "../Project/Project";
 
 function Main() {
   useEffect(() => {
@@ -100,6 +101,18 @@ function Main() {
             <li className="navli">
               <Link
                 className="navLink"
+                to="project"
+                spy={true}
+                smooth={true}
+                offset={-35}
+                duration={0}
+              >
+                Projects
+              </Link>
+            </li>
+            <li className="navli">
+              <Link
+                className="navLink"
                 to="achievements"
                 spy={true}
                 smooth={true}
@@ -146,6 +159,9 @@ function Main() {
       </Element>
       <Element name="experience">
         <Experience />
+      </Element>
+      <Element name="project">
+        <Project />
       </Element>
       <Element name="achievements">
         <Achievements />
