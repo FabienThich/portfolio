@@ -45,6 +45,11 @@ h1::before, h1::after {
   box-shadow: 5px 3px 8px white;
 }
 
+@media (max-width: 768px) {
+  .container {
+    padding-top: 0%;
+  }
+}
 /* .App {
   text-align: center;
 }
