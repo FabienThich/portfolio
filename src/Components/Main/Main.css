@@ -84,3 +84,7 @@
   opacity: 90%;
   /* filter: blur(2px); */
 }
+
+.extra-space {
+  margin-top: 5.75em;
+}

@@ -3,7 +3,7 @@ import "./AcademicWork.css";
 
 function AcademicWork() {
   return (
-    <div className="container PadExempt">
+    <div className="container">
       <h1 data-aos="fade-up">Academic Work</h1>
       <div className="row">
         {Work.map((card) => {

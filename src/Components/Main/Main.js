@@ -103,7 +103,7 @@ function Main() {
                 to="achievements"
                 spy={true}
                 smooth={true}
-                offset={50}
+                offset={-35}
                 duration={0}
               >
                 Achievements
@@ -138,6 +138,7 @@ function Main() {
       <Element name="home">
         <Home />
       </Element>
+      <div className="extra-space"></div>
       <Element name="about">
         <About />
       </Element>
@@ -147,6 +148,7 @@ function Main() {
       <Element name="experience">
         <Experience />
       </Element>
+      <div className="extra-space"></div>
       <Element name="achievements">
         <Achievements />
       </Element>

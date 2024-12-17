@@ -1,11 +1,11 @@
 .Pad {
-  padding-top: 10.75em;
+  padding-top: 5.75em;
   padding-bottom: 5.75em;
 }
 
-.PadExempt {
-  padding-top: 5.75em;
-  padding-bottom: 5.75em;
+.container {
+  min-height: 100vh;
+  padding-top: 8em;
 }
 
 h1 {

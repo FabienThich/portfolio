@@ -6,7 +6,7 @@ import CertTable from "./Table.js";
 
 function Achievements() {
   return (
-    <div className="container Pad">
+    <div className="container">
       <h1 data-aos="fade-up">Achievements</h1>
 
       <Tabs
