@@ -80,3 +80,12 @@
   font-weight: bold;
   font-size: 18px;
 }
+
+@media (max-width: 768px) {
+  .TabsContent,
+  .TabsContentExempt {
+    padding: 0;
+    margin-bottom: 5em;
+    min-height: 100vh;
+  }
+}

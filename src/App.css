@@ -54,11 +54,17 @@ h1::after {
 
   .navbar-toggler.collapsed, .navbar-toggler {
     margin-right: 1em;
+    border: 0;
   }
 
   .navbar-brand {
     margin-left: 1em;
   }
+
+  .Pad {
+    padding-bottom: 0;
+  }
+  
 }
 /* .App {
   text-align: center;
