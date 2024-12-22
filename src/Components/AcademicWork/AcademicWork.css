@@ -47,8 +47,12 @@
   transform: scale(1.025);
 }
 
+.card-text {
+  min-height: 6em;
+}
+
 @media (max-width: 768px) {
   .mobile-margin-work {
-    margin-top: 6em; 
+    margin-top: 6em;
   }
 }

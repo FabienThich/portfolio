@@ -13,7 +13,7 @@ const Work = [
     image:
       "https://m.media-amazon.com/images/I/31epF-8N9LL.png",
     readLength: 10,
-    description: "Analysis reviews with Natural Language Processing.",
+    description: "Analyze Amazon Prime video reviews with Natural Language Processing.",
     blog: "Blog",
   },
 
