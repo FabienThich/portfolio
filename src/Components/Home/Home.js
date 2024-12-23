@@ -7,7 +7,7 @@ import Resume from "../../assets/Resume.png";
 function Home() {
   return (
     <div className="HomeBackground">
-      <div className="container" style={{ height: "90vh", color: "white" }}>
+      <div className="home-container" style={{color: "white" }}>
         <div className="homeStarter text-center">
           <h4 data-aos="fade" data-aos-delay="50" className="myGreeting">
             Hello, I am...
