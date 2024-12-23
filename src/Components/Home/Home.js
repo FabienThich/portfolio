@@ -45,7 +45,7 @@ function Home() {
             </a> */}
             <a
               data-aos="fade"
-              data-aos-delay="250"
+              data-aos-delay="200"
               href={Resume}
               download="Resume - Fabien Thich"
             >
